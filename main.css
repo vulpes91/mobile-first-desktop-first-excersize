@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Desktop first */
+/* .block {
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(11, 89, 190);
+} */
+/* //Desktop first */
+
+/*  Media Desktop first */
+/* @media (max-width: 1199px) {
+    .block {
+        background-color: rgb(28, 112, 49);
+    }
+} */
+/* screen and  иногда указывают, но по сути не нужен */
+/* 
+@media (max-width: 899px) {
+    .block {
+        background-color: rgb(161, 40, 40);
+        width: 500px;
+    }
+}
+
+@media (max-width: 399px) {
+    .block {
+        width: 100%;
+        background-color: rgb(202, 191, 33);
+    }
+} */
+
+/* //  Media Desktop first */
+
+.block {
+    width: 100%;
+    height: 200px;
+    background-color: #d6d321;
+}
+
+@media (min-width: 400px) {
+    .block {
+        background-color: #1c6e3c;
+        width: 360px;
+    }
+}
+@media (min-width: 750px) {
+    .block {
+        background-color: #a06420;
+        width: 360px;
+        border: 5px solid black;
+    }
+}
